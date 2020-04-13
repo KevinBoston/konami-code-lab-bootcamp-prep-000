@@ -15,8 +15,9 @@ const body = document.body;
 
 function init() {
   // your code here
+  let count = 0;
   body.addEventListener("keydown", (ev) => {
     let key = ev.key;
-    
+    if (key[count])
   })
 }
