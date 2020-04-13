@@ -21,8 +21,11 @@ function init() {
     if (codes[count] === key){
       count++;
       if (count === codes.length){
-        alert
+        alert("Hurray!");
+        count = 0;
       }
+    } else {
+      count = 0;
     }
-  })
+  });
 }
