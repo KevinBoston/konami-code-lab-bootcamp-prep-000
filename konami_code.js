@@ -19,7 +19,7 @@ function init() {
   body.addEventListener("keydown", (ev) => {
     let key = ev.key;
     if (codes[count] === key){
-      
+      count++;
     }
   })
 }
