@@ -20,6 +20,9 @@ function init() {
     let key = ev.key;
     if (codes[count] === key){
       count++;
+      if (count === codes.length){
+        alert
+      }
     }
   })
 }
