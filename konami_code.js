@@ -18,6 +18,8 @@ function init() {
   let count = 0;
   body.addEventListener("keydown", (ev) => {
     let key = ev.key;
-    if (key[count])
+    if (codes[count] === key){
+      
+    }
   })
 }
